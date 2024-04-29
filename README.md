@@ -88,4 +88,4 @@ Stop and remove the containers
 ```
 $ docker compose down
 ```
-<img src="../prints/docker_compose_down.png" alt="Docker Compose Down.">
+<img src="./prints/docker_compose_down.png" alt="Docker Compose Down.">
