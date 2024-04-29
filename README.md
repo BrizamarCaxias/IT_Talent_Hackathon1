@@ -61,6 +61,7 @@ Make sure port 80 on the host is not already being in use.
 $ docker compose up -d
 ```
 <img src="./prints/docker_composer.png" alt="Docker Composer UP">
+
 ## Expected result
 
 Listing containers must show three containers running and the port mapping as below:
@@ -82,8 +83,9 @@ $ curl localhost:80
 ["Blog post #0","Blog post #1","Blog post #2","Blog post #3","Blog post #4"]
 ```
 <img src="./prints/curl.png" alt="Resultado CURL porta 80.">
+
 Stop and remove the containers
 ```
 $ docker compose down
 ```
-<img src="../prints/docker_compose_down.png" alt="Resultado CURL porta 80.">
+<img src="../prints/docker_compose_down.png" alt="Docker Compose Down.">
