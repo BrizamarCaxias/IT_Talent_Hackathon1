@@ -60,7 +60,7 @@ Make sure port 80 on the host is not already being in use.
 ```
 $ docker compose up -d
 ```
-<img src="../prints/docker_composer.png" alt="Docker Composer UP">
+<img src="./prints/docker_composer.png" alt="Docker Composer UP">
 ## Expected result
 
 Listing containers must show three containers running and the port mapping as below:
@@ -74,14 +74,14 @@ l_backend_1
 ca8c5975d205        mysql:5.7                    "docker-entrypoint.s…"   2 minutes ago       Up 2 minutes        3306/tcp, 33060/tcp   nginx-aspnet-mysql
 l_db_1
 ```
-<img src="../prints/docker_ps.png" alt="Imagens UP">
+<img src="./prints/docker_ps.png" alt="Imagens UP">
 
 After the application starts, navigate to `http://localhost:80` in your web browser or run:
 ```
 $ curl localhost:80
 ["Blog post #0","Blog post #1","Blog post #2","Blog post #3","Blog post #4"]
 ```
-<img src="../prints/curl.png" alt="Resultado CURL porta 80.">
+<img src="./prints/curl.png" alt="Resultado CURL porta 80.">
 Stop and remove the containers
 ```
 $ docker compose down
